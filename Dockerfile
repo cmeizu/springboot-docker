@@ -1,7 +1,7 @@
 FROM java:8
 ENV TZ=Asia/Shanghai
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-COPY ./target/springboot.jar  /app/springboot.jar
+COPY ./target/springboot-1.0-SNAPSHOT.jar  /app/springboot-1.0-SNAPSHOT.jar
 WORKDIR /app
 RUN bash -c 'touch /springboot.jar'
 #EXPOSE 8089
