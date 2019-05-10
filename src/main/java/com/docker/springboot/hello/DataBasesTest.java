@@ -21,7 +21,7 @@ import static java.util.jar.Pack200.Packer.PASS;
 public class DataBasesTest {
 
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/dbgirl";
+    static final String DB_URL = "jdbc:mysql://cmeizu.cn:3306/dbgirl";
 
     // 数据库的用户名与密码，需要根据自己的设置
     static final String USER = "root";
